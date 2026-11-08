@@ -12,6 +12,7 @@ const phone=page.locator('#phone')
 await phone.fill('phone1234');
 const radiobox= page.getByLabel('Male',{exact:true});
 await radiobox.check();
+await page.waitForTimeout(5000);
 const checkbox=page.getByText('Sunday');
 await checkbox.check();
 
