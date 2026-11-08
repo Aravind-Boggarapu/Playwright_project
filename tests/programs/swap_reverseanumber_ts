@@ -1,0 +1,32 @@
+let a=10 , b=20 ,c ;
+
+console.log(a,b+" before swaping")
+ c=a;
+ a=b;
+ b=c;
+
+ console.log(a,b+" after swaping")
+
+
+
+ let d=30, e=40;
+console.log(d, e)
+ d=d+e;
+ e=d-e;
+ d=d-e;
+ console.log("after swaping"+" "+d,e)
+
+
+
+ // reverse a  number
+
+ let n:number=1200;
+let rev:number=0
+ while(n!=0)
+ {
+rev=rev*10+n%10
+
+n=Math.floor(n/10);
+ }
+console.log(rev)
+
