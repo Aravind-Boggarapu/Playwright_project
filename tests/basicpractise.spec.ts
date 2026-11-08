@@ -48,7 +48,6 @@ console.log(count);
     return value.trim();
  })
  console.log(arrayoptions);
- await page.waitForTimeout(5000);
  console.log(trimeed);
  const array2=await alloptions.all();
 });
