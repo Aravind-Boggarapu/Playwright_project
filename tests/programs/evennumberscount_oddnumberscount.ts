@@ -11,3 +11,4 @@ upon division by 2 while an odd number is a number which has a remainder of 1 up
 // odd count
 
 console.log("odd count");
+console.log("adding new comments")
